@@ -1,0 +1,12 @@
+# Deactivate current environment
+deactivate
+
+# Remove the existing virtual environment
+rm -rf myenv
+
+# Create a new virtual environment
+python3 -m venv myenv
+
+# Activate the new virtual environment
+source myenv/bin/activate
+
