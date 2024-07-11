@@ -9,3 +9,4 @@ pip install setuptools
 pip install distutils
 pip install setuptools pyaudio google-cloud-speech speechrecognition sounddevice scipy numpy
 
+pip install snowboy-detect
