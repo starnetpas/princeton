@@ -1,10 +1,12 @@
-import snowboydecoder
 import sys
 import signal
 import sounddevice as sd
 import scipy.io.wavfile as wav
 from google.cloud import speech
 import time
+
+sys.path.append('path/to/snowboy/swig/Python')  # Update this path
+import snowboydecoder
 
 model = "Betelgeuse.pmdl"  # Path to your Snowboy model file
 sensitivity = 0.5
